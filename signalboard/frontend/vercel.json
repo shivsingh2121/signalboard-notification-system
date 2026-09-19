@@ -1,0 +1,3 @@
+{
+  "rewrites": [{ "source": "/((?!OneSignalSDKWorker.js|assets/|favicon.svg).*)", "destination": "/index.html" }]
+}
