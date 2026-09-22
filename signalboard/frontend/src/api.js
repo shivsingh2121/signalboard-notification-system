@@ -1,4 +1,4 @@
-export const API_URL = (import.meta.env.VITE_API_URL || "http://localhost:8000").replace(/\/$/, "");
+export const API_URL = (import.meta.env.VITE_API_URL || "https://signalboard-notification-system.onrender.com/").replace(/\/$/, "");
 const TOKEN_KEY = "sb_token";
 
 export const tokenStore = {
