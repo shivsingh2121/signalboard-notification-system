@@ -1,5 +1,6 @@
 """Django settings for the Signalboard notification backend."""
 import os
+import dj_database_url
 from pathlib import Path
 
 import dj_database_url
